@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.20)  7 SEP 2014 12:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.20)  11 SEP 2014 18:54
 entering extended mode
 **calendar20142015.tex
 (F:\soft-elec-eng-klub\calendar\calendar20142015.tex
@@ -205,20 +205,20 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package hyperref Info: Option `colorlinks' set `true' on input line 29.
 
 (F:\soft-elec-eng-klub\calendar\calendar20142015.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -281,7 +281,7 @@ File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \makeMPintoPDFobject=\count110
 \everyMPtoPDFconversion=\toks19
 )))
-Package hyperref Info: Link coloring ON on input line 49.
+Package hyperref Info: Link coloring ON on input line 53.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -290,9 +290,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count111
 )
-LaTeX Info: Redefining \ref on input line 49.
-LaTeX Info: Redefining \pageref on input line 49.
-LaTeX Info: Redefining \nameref on input line 49.
+LaTeX Info: Redefining \ref on input line 53.
+LaTeX Info: Redefining \pageref on input line 53.
+LaTeX Info: Redefining \nameref on input line 53.
 
 (F:\soft-elec-eng-klub\calendar\calendar20142015.out)
 (F:\soft-elec-eng-klub\calendar\calendar20142015.out)
@@ -301,117 +301,117 @@ LaTeX Info: Redefining \nameref on input line 49.
 \@currday=\count112
 \@numdays=\count113
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 142--142
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 148--148
  \OT1/cmr/m/it/10 10
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 142--142
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 148--148
  \OT1/cmr/m/it/10 11
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 142--142
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 148--148
  \OT1/cmr/m/it/10 12
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 142--142
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 148--148
  \OT1/cmr/m/it/10 13
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 142--142
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 148--148
  \OT1/cmr/m/it/10 14
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 142--142
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 148--148
  \OT1/cmr/m/it/10 15
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 142--142
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 148--148
  \OT1/cmr/m/it/10 16
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 142--142
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 148--148
  \OT1/cmr/m/it/10 17
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 142--142
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 148--148
  \OT1/cmr/m/it/10 18
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 142--142
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 148--148
  \OT1/cmr/m/it/10 19
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 142--142
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 148--148
  \OT1/cmr/m/it/10 20
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 142--142
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 148--148
  \OT1/cmr/m/it/10 21
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 142--142
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 148--148
  \OT1/cmr/m/it/10 22
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 142--142
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 148--148
  \OT1/cmr/m/it/10 23
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 142--142
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 148--148
  \OT1/cmr/m/it/10 24
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 142--142
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 148--148
  \OT1/cmr/m/it/10 25
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 142--142
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 148--148
  \OT1/cmr/m/it/10 26
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 142--142
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 148--148
  \OT1/cmr/m/it/10 27
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 142--142
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 148--148
  \OT1/cmr/m/it/10 28
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 142--142
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 148--148
  \OT1/cmr/m/it/10 29
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 142--142
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 148--148
  \OT1/cmr/m/it/10 30
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 142--143
+Overfull \hbox (15.0pt too wide) in paragraph at lines 148--149
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
 
@@ -422,117 +422,117 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--143
 \@currday=\count114
 \@numdays=\count115
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 229--229
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 237--237
  \OT1/cmr/m/it/10 10
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 229--229
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 237--237
  \OT1/cmr/m/it/10 11
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 229--229
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 237--237
  \OT1/cmr/m/it/10 12
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 229--229
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 237--237
  \OT1/cmr/m/it/10 13
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 229--229
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 237--237
  \OT1/cmr/m/it/10 14
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 229--229
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 237--237
  \OT1/cmr/m/it/10 15
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 229--229
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 237--237
  \OT1/cmr/m/it/10 16
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 229--229
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 237--237
  \OT1/cmr/m/it/10 17
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 229--229
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 237--237
  \OT1/cmr/m/it/10 18
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 229--229
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 237--237
  \OT1/cmr/m/it/10 19
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 229--229
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 237--237
  \OT1/cmr/m/it/10 20
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 229--229
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 237--237
  \OT1/cmr/m/it/10 21
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 229--229
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 237--237
  \OT1/cmr/m/it/10 22
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 229--229
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 237--237
  \OT1/cmr/m/it/10 23
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 229--229
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 237--237
  \OT1/cmr/m/it/10 24
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 229--229
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 237--237
  \OT1/cmr/m/it/10 25
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 229--229
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 237--237
  \OT1/cmr/m/it/10 26
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 229--229
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 237--237
  \OT1/cmr/m/it/10 27
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 229--229
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 237--237
  \OT1/cmr/m/it/10 28
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 229--229
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 237--237
  \OT1/cmr/m/it/10 29
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 229--229
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 237--237
  \OT1/cmr/m/it/10 30
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 229--230
+Overfull \hbox (15.0pt too wide) in paragraph at lines 237--238
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
 
  []
 
@@ -541,112 +541,112 @@ Underfull \hbox (badness 10000) in paragraph at lines 229--230
 \@currday=\count116
 \@numdays=\count117
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 313--313
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 321--321
  \OT1/cmr/m/it/10 10
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 313--313
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 321--321
  \OT1/cmr/m/it/10 11
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 313--313
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 321--321
  \OT1/cmr/m/it/10 12
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 313--313
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 321--321
  \OT1/cmr/m/it/10 13
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 313--313
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 321--321
  \OT1/cmr/m/it/10 14
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 313--313
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 321--321
  \OT1/cmr/m/it/10 15
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 313--313
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 321--321
  \OT1/cmr/m/it/10 16
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 313--313
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 321--321
  \OT1/cmr/m/it/10 17
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 313--313
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 321--321
  \OT1/cmr/m/it/10 18
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 313--313
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 321--321
  \OT1/cmr/m/it/10 19
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 313--313
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 321--321
  \OT1/cmr/m/it/10 20
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 313--313
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 321--321
  \OT1/cmr/m/it/10 21
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 313--313
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 321--321
  \OT1/cmr/m/it/10 22
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 313--313
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 321--321
  \OT1/cmr/m/it/10 23
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 313--313
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 321--321
  \OT1/cmr/m/it/10 24
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 313--313
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 321--321
  \OT1/cmr/m/it/10 25
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 313--313
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 321--321
  \OT1/cmr/m/it/10 26
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 313--313
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 321--321
  \OT1/cmr/m/it/10 27
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 313--313
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 321--321
  \OT1/cmr/m/it/10 28
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 313--313
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 321--321
  \OT1/cmr/m/it/10 29
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 313--314
+Overfull \hbox (15.0pt too wide) in paragraph at lines 321--322
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--314
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
 
  []
 
@@ -655,140 +655,140 @@ Underfull \hbox (badness 10000) in paragraph at lines 313--314
 \@currday=\count118
 \@numdays=\count119
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 399--399
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 407--407
  \OT1/cmr/m/it/10 10
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 399--399
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 407--407
  \OT1/cmr/m/it/10 11
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 399--399
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 407--407
  \OT1/cmr/m/it/10 12
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 399--399
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 407--407
  \OT1/cmr/m/it/10 13
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 399--399
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 407--407
  \OT1/cmr/m/it/10 14
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 399--399
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 407--407
  \OT1/cmr/m/it/10 15
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 399--399
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 407--407
  \OT1/cmr/m/it/10 16
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 399--399
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 407--407
  \OT1/cmr/m/it/10 17
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 399--399
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 407--407
  \OT1/cmr/m/it/10 18
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 399--399
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 407--407
  \OT1/cmr/m/it/10 19
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 399--399
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 407--407
  \OT1/cmr/m/it/10 20
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 399--399
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 407--407
  \OT1/cmr/m/it/10 21
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 399--399
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 407--407
  \OT1/cmr/m/it/10 22
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 399--399
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 407--407
  \OT1/cmr/m/it/10 23
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 399--399
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 407--407
  \OT1/cmr/m/it/10 24
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 399--399
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 407--407
  \OT1/cmr/m/it/10 25
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 399--399
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 407--407
  \OT1/cmr/m/it/10 26
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 399--399
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 407--407
  \OT1/cmr/m/it/10 27
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 399--399
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 407--407
  \OT1/cmr/m/it/10 28
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 399--399
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 407--407
  \OT1/cmr/m/it/10 29
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 399--399
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 407--407
  \OT1/cmr/m/it/10 30
  []
 
 
-Overfull \hbox (2.49861pt too wide) in paragraph at lines 399--399
+Overfull \hbox (2.49861pt too wide) in paragraph at lines 407--407
  \OT1/cmr/m/it/10 31
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 399--400
+Overfull \hbox (15.0pt too wide) in paragraph at lines 407--408
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 399--400
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 401.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 409.
 [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 401.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 409.
  (F:\soft-elec-eng-klub\calendar\calendar20142015.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 401.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 401.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 409.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 409.
 Package rerunfilecheck Info: File `calendar20142015.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 401.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 409.
  ) 
 Here is how much of TeX's memory you used:
- 5378 strings out of 493921
- 80027 string characters out of 3144864
- 187139 words of memory out of 3000000
- 8663 multiletter control sequences out of 15000+200000
+ 5380 strings out of 493921
+ 80039 string characters out of 3144864
+ 187060 words of memory out of 3000000
+ 8665 multiletter control sequences out of 15000+200000
  5199 words of font info for 19 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  29i,10n,32p,289b,318s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -796,7 +796,7 @@ Here is how much of TeX's memory you used:
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on calendar20142015.pdf (4 pages, 68598 bytes).
+Output written on calendar20142015.pdf (4 pages, 68484 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  5 named destinations out of 1000 (max. 500000)
