@@ -1,0 +1,124 @@
+    /* Z-index of #mask must lower than #boxes .window */
+    #mask {
+    position:absolute;
+    top: 0px;
+    z-index:9000;
+    background-color:#000;
+    display:none;
+    }
+    #boxes .window {
+    width:580px;
+    position:absolute;
+    display:none;
+    max-height: 750px; /*150*5 = 750*/
+    z-index:9999;
+    padding:0px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(98, 98, 98, 0.7);
+    border-radius: 5px;
+    margin-top: 430px;
+    /*box-shadow: 0px 1px 5px 3px rgba(98, 98, 98, 0.9);*/
+    }
+    /* Customize your modal window here, you can add background image too */
+    
+    #diy-projects-window{
+    width:auto;
+    height:300px; /*160*3 = 480
+    border: 1px solid rgb(40, 40, 255);*/
+    }
+    
+    .row1 {
+    height: 120px;
+    width: auto;
+    padding: 15px;
+    background: rgba(92, 92, 92, 0.4);
+    /*border: 1px solid rgb(255, 100, 0);*/
+    }
+    
+    .row2 {
+    height: 120px;
+    width: auto;
+    padding: 15px;
+    background: rgba(98, 98, 98, 0.1);
+    }
+    
+    img.row1-img {
+    float: left;  
+    border-radius: 100%;
+    /*border: 1px solid rgb(255, 255, 0);*/
+    margin-right: 20px;
+    width: 115px;
+    height: auto;
+    }
+    
+    .row1-para {
+    width: 404px;
+    float: left;
+    font-weight: lighter;
+    /*border: 1px solid rgb(255, 0, 0);*/
+    }
+    
+    h1.row1-h {
+    margin-top: 0;
+    padding: 0px;
+    font: normal 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    }
+    
+    h2.row1-h {
+    font: bold 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    }
+    
+    p.row1-p {
+    margin-bottom: 0;
+    font: normal 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+        /*border: 1px solid rgb(0, 0, 255);*/
+    color: rgb(233, 232, 236);
+   
+    }
+    
+    .close {
+    float: right;
+    border: 1px solid rgb(255, 0, 255);
+    display: none;
+    }
+    
+    img.row2-img {
+    float: right;  
+    border-radius: 100%;
+    /*border: 1px solid rgb(255, 255, 0);*/
+    margin-left: 20px;
+    width: 115px;
+    height: auto;
+    }
+    
+    .row2-para {
+    width: 404px;
+    float: right;
+    font-weight: lighter;
+    /*border: 1px solid rgb(255, 0, 0);*/
+    }
+    
+    img.row2-member-portfolio {
+    width: 20px;
+    height: auto;
+    padding: 5px;
+    margin: 0 8px 0 8px;
+    float: right;
+    }
+    
+    .row2-member-portfolio {
+    height: 30px;
+    width: auto;
+    margin-top: 5px;
+    /*border: 1px solid rgb(255, 0, 0);*/
+    }
+    
+    img.row1-member-portfolio {
+    width: 20px;
+    height: auto;
+    padding: 5px;
+    margin: 0 8px 0 8px;
+    float: left;
+    }

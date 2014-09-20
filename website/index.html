@@ -19,11 +19,7 @@ Ubuntu">
     margin:0;
         font-family: 'Merriweather', serif;
       }
-      /*
-      COMMENT OUT TO HAVE LAYOUT THAT CAN BE COPIED AS HTML INTO EMAIL.
-      SEE http://www.youtube.com/watch?v=MsMSqhMlfao FOR TUTORIAL
-      .container{width: 620px; box-shadow: 0px 1px 6px 2px rgb(208, 208, 208); border: 1px solid rgb(210, 210, 210); border-radius: 10px ;margin: 0 auto auto;}
-      img {width: 620px; }*/
+      
       body h1 {font-family: 'Ubuntu', serif;}
 
 .two-col {
@@ -44,6 +40,29 @@ a {color: #E02020; text-decoration: none;}
 </style>
 </head>
 <body>
+	
+<div id="jquery-script-menu">
+      <img src="img/seek-logo.jpg" style="width: 96px; height: auto; float: left; margin: -4px 0 0 24%; border: 1px solid rgb(255, 255, 255); border-radius: 10px;">
+      <div id="menu">
+        <ul class="level1">
+
+          <li class="level1-li"><a href="http://nextproject.ca/pages.php?p=students" target="_blank">Schedule</a></li>
+          <li class="level1-li"><a class="level1-a drop" href="#meet-your-team" name="modal" id="meet-your-team-menu-clicked">About Us<!--[if gte IE 7]><!--></a><!--<![endif]-->
+            <!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul class="level2">
+              <li><a href="#about-us" name="modal" id="about-us-menu-clicked">How We Work</a></li>
+              <li><a href="#exec-list" name="modal" id="executives-menu-clicked">Meet Your Team</a>
+              </li>
+            </ul>
+            <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+          </li>
+          <li id="contact-us" class="level1-li"><a class="level1-a drop" href="#contact-us-now" name="modal" id="contact-us-now-menu-clicked">Contact Us Now<!--[if gte IE 7]><!--></a><!--<![endif]--></li>
+          <li class="level1-li"><a href="http://nextproject.ca/seek/tutorials/" target="_blank">Tutorials</a></li>
+          <li class="level1-li"><a href="https://www.facebook.com/seek.uoit" target="_blank"><img src="img/facebook-icon.png"></a></li>        
+        </ul>
+
+      </div>
+    </div>
 
 <div class="container">
 <img src="img/software-electronics-heroes.gif">

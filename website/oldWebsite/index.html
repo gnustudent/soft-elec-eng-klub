@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <meta charset="utf-8">
+  <title>Software and Electrical Engineering Klub | SEEK | UOIT DC</title>
+  <meta name="description" content="SEEK the Software and Electrical Engineering Klub at UOIT, Oshawa, help students with microcontrollers, embedded systems, mechatronics, power electronics, radio frequency engineering, biomedical technology, software and web application development.">
+  <meta name="author" content="Ami Ahmad Touseef">
+
+  <!-- SlidesJS Required (if responsive): Sets the page width to the device width. -->
+  <meta name="viewport" content="width=device-width">
+  <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width">
+  <!-- End SlidesJS Required -->
+
+  <!-- CSS for slidesjs.com example -->
+  <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/vertical.news.slider.css">
+  <link rel="stylesheet" href="css/example.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <!-- End CSS for slidesjs.com example -->
+  
+  <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/workshops-now-online.css">
+  
+  <style>
+  /* Z-index of #mask must lower than #boxes .window */
+  #mask {
+    position:absolute;
+    top: 0px;
+    z-index:9000;
+    background-color:#000;
+    display:none;
+  }
+
+  #boxes .window {
+    position:absolute;
+    display:none;
+    /*150*5 = 750*/
+    z-index:9999;
+    padding:0px;
+    margin-top: 140px;
+
+
+    /*box-shadow: 0px 1px 5px 3px rgba(98, 98, 98, 0.9);*/
+  }
+
+  #boxes #exec-list{   
+    width:580px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(98, 98, 98, 0.7);
+    border-radius: 5px;
+  }
+
+
+  #meet-your-team .container{
+
+    width: 960px;
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+    /*border: 0px solid rgb(0, 0, 255);*/
+  }
+
+  #meet-your-team .container img{
+    width: 960px;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #meet-your-team .container .row0{
+    background: rgba(255, 255, 255, 0.8);
+    margin: 0;
+    padding: 10px;
+  }
+
+  #meet-your-team .container .row0 p{
+    vertical-align: center;
+    text-align: center;
+    font: normal 30px Courier, monospace;
+    color: rgb(40, 40, 63);
+    text-shadow: 0px 2px 1px rgb(253, 253, 255);
+
+    margin: 0;
+    padding: 0;
+  }
+
+  #meet-your-team .container .row1{
+    min-height: 220px;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 0;
+    padding: 0 0 10px 0;
+    margin: 0px;
+  }
+
+  #meet-your-team .container .row1 .col{
+    width: 278px;/*960-(20*6)/3 = 960-120 / 3 = 840 / 3 = 280 = 320 - 20 = 300*/
+    height: auto;
+    padding: 0 20px 20px 20px;
+    float: left;
+    margin: 0 0 0 0;
+    /*border: 1px solid rgb(255, 0, 0);*/
+  }
+
+  #meet-your-team .container .row1 .col .h1-header h1{
+    padding: 0;
+    width: 277px;
+    text-shadow: 0px 2px 1px rgb(255, 255, 255);
+    font: normal 14px "Verdana", Helvetica, Arial, sans-serif;
+    float: left;
+    /*border: 1px solid rgb(0, 0, 255);*/
+    color: rgb(60, 60, 73);
+    margin: 0px auto 0px auto 0px;
+    text-align: center;
+  }
+
+  #meet-your-team .container .row1 .col h1 img {
+    width: 12px;
+    height: auto;
+    padding: 2px;
+  }
+
+  #meet-your-team .container .row1 .col p{
+    text-shadow: -1px 1px 1px rgb(255, 255, 255);
+    font: normal 12px "Verdana", Helvetica, Arial, sans-serif;
+    color: rgb(84, 84, 92);
+    line-height: 200%;
+    /* border: 1px solid rgb(255, 0, 0);*/
+    text-align: center;
+  }
+
+  #about-us .container {
+    width: auto;
+    height: auto;
+  }
+
+  #about-us .container img.about-us-blueprint {
+
+    width: 700px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+  }
+
+  #about-us .container .row {
+    width: 660px;
+    height: 40px;
+    height: auto;
+    margin: 0;
+    padding: 20px;
+    background: rgb(57, 88, 152);
+  }
+
+  #about-us .container .row p {
+    color: rgb(205, 205, 225);
+    font: normal 18px "Verdana", Helvetica, Arial, sans-serif;
+    font-weight: light;
+    text-align: center;
+    text-shadow: 0px 1px 1px rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+    /*border: 1px solid rgb(255, 0, 0);*/
+  }
+
+  #contact-us-now .container{
+    background: rgb(208, 212, 228);
+    width: 650px;
+    border-radius: 4px;
+    border: 3px solid rgb(228, 232, 238);
+  }
+
+  #contact-us-now .container img {
+    width: 650px;
+    height: auto;
+  }
+
+    /*&#boxes #contact-us{  
+    width:580px;
+    max-height: 750px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(98, 98, 98, 0.7);
+    border-radius: 5px;
+    margin-top: 430px;
+    }
+    
+    #boxes #contact-us #contact-us-row{
+    height: 400px;
+    width: auto;
+    padding: 15px;
+    background: rgba(92, 92, 92, 0.4);
+    }*/
+    
+    .row1 {
+      height: 120px;
+      width: auto;
+      padding: 15px;
+      background: rgba(92, 92, 92, 0.4);
+      /*border: 1px solid rgb(255, 100, 0);*/
+    }
+    
+    .row2 {
+      height: 120px;
+      width: auto;
+      padding: 15px;
+      background: rgba(98, 98, 98, 0.1);
+    }
+    
+    img.row1-img {
+      float: left;  
+      border-radius: 100%;
+      /*border: 1px solid rgb(255, 255, 0);*/
+      margin-right: 20px;
+      width: 115px;
+      height: auto;
+    }
+    
+    .row1-para {
+      width: 404px;
+      float: left;
+      font-weight: lighter;
+      /*border: 1px solid rgb(255, 0, 0);*/
+    }
+    
+    h1.row1-h {
+      margin-top: 0;
+      padding: 0px;
+      font: normal 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: rgb(255, 255, 255);
+    }
+    
+    h2.row1-h {
+      font: bold 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: rgb(255, 255, 255);
+    }
+    
+    p.row1-p {
+      margin-bottom: 0;
+      font: normal 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+      /*border: 1px solid rgb(0, 0, 255);*/
+      color: rgb(233, 232, 236);
+
+    }
+    
+    .close {
+      float: right;
+      border: 1px solid rgb(255, 0, 255);
+      display: none;
+    }
+    
+    img.row2-img {
+      float: right;  
+      border-radius: 100%;
+      /*border: 1px solid rgb(255, 255, 0);*/
+      margin-left: 20px;
+      width: 115px;
+      height: auto;
+    }
+    
+    .row2-para {
+      width: 404px;
+      float: right;
+      font-weight: lighter;
+      /*border: 1px solid rgb(255, 0, 0);*/
+    }
+    
+    img.row2-member-portfolio {
+      width: 20px;
+      height: auto;
+      padding: 5px;
+      margin: 0 8px 0 8px;
+      float: right;
+    }
+    
+    .row2-member-portfolio {
+      height: 30px;
+      width: auto;
+      margin-top: 5px;
+      /*border: 1px solid rgb(255, 0, 0);*/
+    }
+    
+    img.row1-member-portfolio {
+      width: 20px;
+      height: auto;
+      padding: 5px;
+      margin: 0 8px 0 8px;
+      float: left;
+    }
+    
+    #menu img {
+height: 65px;
+width: auto;
+margin-top: -15px;
+margin-left: 36px;
+float: right;
+}
+    </style>
+
+
+    <script src="js/jquery-1.6.2.min.js"></script>
+
+
+    <!-- SlidesJS Optional: If you'd like to use this design -->                 
+
+    <!-- #dialog is the id of a DIV defined in the code below -->
+    
+    
+    <script>
+    $(document).ready(function() {    
+        //select all the a tag with name equal to modal
+        $('a[name=modal]').click(function(e) {
+            //Cancel the link behavior
+            e.preventDefault();
+            //Get the A tag
+            var id = $(this).attr('href');
+
+            //Get the screen height and width
+            //$("#exec").click(function(){
+
+            //});
+        var maskHeight = $(document).height() *2;
+            //maskHeight = $('#exec').click($(document).height());
+            var maskWidth = $(window).width();
+            
+            //Set height and width to mask to fill up the whole screen
+            $('#mask').css({'width':maskWidth,'height':maskHeight});
+            
+            //transition effect        
+            $('#mask').fadeIn(1000);    
+            $('#mask').fadeTo("slow",0.8);    
+
+            //Get the window height and width
+            var winH = $(window).height();
+            var winW = $(window).width();
+            //Set the popup window to center
+            $(id).css('top', winH/2-$(id).height()/2);
+            $(id).css('left', winW/2-$(id).width()/2);
+
+            //transition effect
+            $(id).fadeIn(2000);
+
+          });
+
+        //if close button is clicked
+        $('.window .close').click(function (e) {
+            //Cancel the link behavior
+            e.preventDefault();
+            $('#mask, .window').hide();
+          });        
+        
+        //if mask is clicked
+        $('#mask').click(function () {
+          $(this).hide();
+          $('.window').hide();
+        });            
+        
+      });
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+  var stickyNavTop = $('nav').offset().top;
+
+  var stickyNav = function(){
+    var scrollTop = $(window).scrollTop();
+
+    if (scrollTop > stickyNavTop) { 
+      $('nav').addClass('sticky');
+    } else {
+      $('nav').removeClass('sticky'); 
+    }
+  };
+
+  stickyNav();
+
+  $(window).scroll(function() {
+   stickyNav();
+ });
+});
+</script>
+
+
+<style>
+body {
+  -webkit-font-smoothing: antialiased;
+  font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #232525;
+  padding-top:70px;
+}
+
+#slides {
+  display: none
+}
+
+#slides .slidesjs-navigation {
+  margin-top:5px;
+}
+
+a.slidesjs-next,
+a.slidesjs-previous,
+a.slidesjs-play,
+a.slidesjs-stop {
+  background-image: url(img/btns-next-prev.png);
+  background-repeat: no-repeat;
+  display:block;
+  width:12px;
+  height:18px;
+  overflow: hidden;
+  text-indent: -9999px;
+  float: left;
+  margin-right:5px;
+}
+
+a.slidesjs-next {
+  margin-right:10px;
+  background-position: -12px 0;
+}
+
+a:hover.slidesjs-next {
+  background-position: -12px -18px;
+}
+
+a.slidesjs-previous {
+  background-position: 0 0;
+}
+
+a:hover.slidesjs-previous {
+  background-position: 0 -18px;
+}
+
+a.slidesjs-play {
+  width:15px;
+  background-position: -25px 0;
+}
+
+a:hover.slidesjs-play {
+  background-position: -25px -18px;
+}
+
+a.slidesjs-stop {
+  width:18px;
+  background-position: -41px 0;
+}
+
+a:hover.slidesjs-stop {
+  background-position: -41px -18px;
+}
+
+.slidesjs-pagination {
+  margin: 7px 0 0;
+  float: right;
+  list-style: none;
+}
+
+.slidesjs-pagination li {
+  float: left;
+  margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  background-image: url(img/pagination.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+  background-position: 0 -26px
+}
+
+#slides a:link,
+#slides a:visited {
+  color: #333
+}
+
+#slides a:hover,
+#slides a:active {
+  color: #9e2020
+}
+
+.navbar {
+  overflow: hidden
+}
+</style>
+<!-- End SlidesJS Optional-->
+
+<!-- SlidesJS Required: These styles are required if you'd like a responsive slideshow -->
+<style>
+#slides {
+  display: none
+}
+
+.container {
+  margin: 0 auto
+}
+
+/* For tablets & smart phones */
+@media (max-width: 767px) {
+  body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .container {
+    width: auto
+  }
+}
+
+/* For smartphones */
+@media (max-width: 480px) {
+  .container {
+    width: auto
+  }
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 768px) and (max-width: 979px) {
+  .container {
+    width: 724px
+  }
+}
+
+/* For larger displays */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px
+  }
+}
+</style>
+<!-- SlidesJS Required: --> 
+
+</head>
+<body>
+
+
+  <!-- SlidesJS Required: Start Slides -->
+  <!-- The container is used to define the width of the slideshow -->
+  
+  <div class="container">
+    <div id="slides">
+      <img src="img/mechatronics.jpg" alt="SEEK UOIT DC club projects in software and electronics for mechanical systems.">
+      <img src="img/communications.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
+      <img src="img/software-electrical-engineering-companies.png" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
+      <img src="img/kicad-pcb.png">
+    </div>
+  </div>
+  <!-- End SlidesJS Required: Start Slides -->
+
+  <!-- SlidesJS Required: Link to jQuery -->
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Link to jquery.slides.js -->
+  <script src="js/jquery.slides.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+  
+  
+  
+  <script>
+  $(function() {
+    $('#slides').slidesjs({
+      width: 940,
+      height: 528,
+      play: {
+        active: true,
+        auto: true,
+        interval: 4000,
+        swap: true
+      }
+    });
+  });
+  </script>
+  <!-- End SlidesJS Required -->
+  
+  <link rel="stylesheet" href="css/vertical.news.slider.css">
+
+</head>
+<body>
+
+  <div id="all-content">
+
+    <div id="jquery-script-menu">
+      <img src="img/seek-logo.jpg" style="width: 96px; height: auto; float: left; margin: -4px 0 0 24%; border: 1px solid rgb(255, 255, 255); border-radius: 10px;">
+      <div id="menu">
+        <ul class="level1">
+
+          <li class="level1-li"><a href="http://nextproject.ca/pages.php?p=students" target="_blank">Build Now</a></li>
+          <li class="level1-li"><a class="level1-a drop" href="#meet-your-team" name="modal" id="meet-your-team-menu-clicked">About Us<!--[if gte IE 7]><!--></a><!--<![endif]-->
+            <!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul class="level2">
+              <li><a href="#about-us" name="modal" id="about-us-menu-clicked">How We Work</a></li>
+              <li><a href="#exec-list" name="modal" id="executives-menu-clicked">Meet Your Team</a>
+              </li>
+            </ul>
+            <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+          </li>
+          <li id="contact-us" class="level1-li"><a class="level1-a drop" href="#contact-us-now" name="modal" id="contact-us-now-menu-clicked">Contact Us Now<!--[if gte IE 7]><!--></a><!--<![endif]--></li>
+          <li class="level1-li"><a href="http://nextproject.ca/seek/tutorials/" target="_blank">Tutorials</a></li>
+          <li class="level1-li"><a href="https://www.facebook.com/seek.uoit" target="_blank"><img src="img/facebook-icon.png"></a></li>        
+        </ul>
+
+      </div>
+    </div><!--jquery-script-menu-->
+
+    <div class="wrapper">
+      <div class="left">
+        <h1>Workshops now online</h1>
+        <div class="left-content left-content-parameters">
+          <div class="left-content-row1">
+            <a href="">
+              <img src="img/wml.jpg">
+              <h2 class="left-content-row-header">Linux Desktop Essentials</h2>
+              <p class="left-content-row-para">Engineers and scientists will see Linux at least several times in their career.
+                But, as a student, you need to see and use linux very soon in courses, capstone projects,
+                engineering hands-on camps. It is recommended by industry
+                gurus as an operating system on top of which we develop tools for firmware, hardware, applications
+                pcb, robots. It is open source, looks awesome, very user friendly.</p>
+              </a>
+
+            </div>
+            <!--left-content-row1-->
+            <div class="left-content-row2">
+              <a href="">
+                <img src="img/raspberry-pi-with-founder.jpg">
+                <h2 class="left-content-row-header">Using Raspberry Pi</h2>
+                <p class="left-content-row-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vehicula tellus 
+                  risus, at porta nibh bibendum a. Duis condimentum nibh elit, eu sollicitudin felis interdum ac. Cras accumsan
+                  ac justo et ultricies. Sed non massa rhoncus, cursus arcu ut, consectetur purus.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vehicula tellus risus, at porta nibh bibendum a.
+                  Duis condimentum nibh elit, eu sollicitudin felis interdum.</p>
+                </a>
+              </div>
+              <div class="left-content-row1">
+                <a href="">
+                  <img src="img/raspbian-logo.png">
+                  <h2 class="left-content-row-header">Raspbian for Raspberry Pi</h2>
+                  <p class="left-content-row-para">Sit amet, consectetur adipiscing elit. Fusce vehicula tellus 
+                    risus, at porta nibh bibendum a. Duis condimentum nibh elit, eu sollicitudin felis interdum ac. Cras accumsan
+                    ac justo et ultricies. Sed non massa rhoncus, cursus arcu ut, consectetur purus.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vehicula tellus risus, at porta nibh bibendum a.
+                    Duis condimentum nibh elit, eu sollicitudin felis interdum lorep dolor ipsum.</p>
+                  </a>
+                </div>
+                <div class="left-content-row2">
+                  <a href="">
+                    <img src="img/windows-phone-developers.jpg">
+                    <h2 class="left-content-row-header">Windows Phone App Development</h2>
+                    <p class="left-content-row-para">Fusce vehicula tellus risus, at porta nibh bibendum a.
+                      Duis condimentum nibh elit, eu sollicitudin felis interdum lorep dolor ipsum. Sit amet, consectetur adipiscing elit. Fusce vehicula tellus 
+                      risus, at porta nibh bibendum a. Duis condimentum nibh elit, eu sollicitudin felis interdum ac. Cras accumsan
+                      ac justo et ultricies. Sed non massa rhoncus, cursus arcu ut, consectetur purus. Eu purus elit crasam.
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <!--left-content-->
+
+
+
+            </div>
+            <!--left-->
+<div class="right">
+<h1>Workshops coming up</h1>
+<div class="news-holder cf">
+<ul class="news-headlines">
+<li class="selected">Soldering</li>
+<li>Microcontroller starter</li>
+<li>Micrcontroller progr.</li>
+<li>Web scripting</li>
+<li>Smart phone app dev.</li>
+<li>Wearable electronics</li>
+<li>Raspberry pi projects</li>
+<li>PLC programming</li>
+<li>PCB design, drafting</li>
+<li>Server Programming APIs .NET, Java, PHP, Django frameworks</li>
+<li>Arduino projects</li>
+<li>FPGA for beginners.</li>
+
+<!-- li.highlight gets inserted here -->
+</ul>
+<div class="news-preview">
+<div class="news-content top-content"> <img src="img/soldering.png">
+<p><a href="#">Jan 15 Wed | 5-6:30PM, J 127</a></p>
+<p><strong>Soldering of electronics &amp; reusing parts</strong><br /><br />Ami Ahmad Touseef will demonstrate and teach you to solder together circuit elements on perf-boards.
+You will unsolder with Ami Ahmad Touseef key components off useless PCBs and reuse them in building fully operational circuits, done live.</p>
+</div>
+<!-- .news-content -->
+
+<div class="news-content"> <img src="img/microcontroller.png">
+<p><a href="#">Jan 22 Wed | 5-6:30PM, J 127</a></p>
+<p><strong>Microcontroller starter guide &amp; tutorial</strong><br /><br />Dhimiter Qendri will share with you his past professional experience in embedded systems. Dhimiter Qendri
+will teach you how to choose the correct microcontroller for the job, purchasing related components, programming fundamentals, and more.</p>
+</div>
+<!-- .news-content -->
+
+<div class="news-content"> <img src="img/microcontroller-programming.png">
+<p><a href="#">Jan 29 Wed | 5-6:30PM, J 127</a></p>
+<p><strong>Microcontroller programming, compiliation, debugging</strong><br /><br />Dhimiter Qendri will walk you through programming microcontrollers, lent to you by SEEK. You will
+write your first program that will process inputs from the physical environment. You will choose what application your embedded systems do.</p>
+</div>
+<!-- .news-content -->
+
+
+<div class="news-content"> <img src="img/web-scripting-languages.png">
+<p><a href="#">Feb 5 Wed | 5-6:30PM J 127</a></p>
+<p>litteraest etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.
+Mirum est notare qJ 127m gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima.</p>
+</div>
+<!--news-content-->
+
+
+<div class="news-content"> <img src="img/smart-phone-apps.png">
+<p><a href="#">Feb 12 Wed | 5-6:30PM, J 127</a></p>
+<p>dynamicus laritas est etiam processus qui consuetudium lectorum.
+Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima.</p>
+</div>
+<!-- .news-content -->
+
+<div class="news-content"> <img src="img/sixth-sense-technology-physical-pervasive-computing.png">
+<p><a href="#">Feb 26 Wed | 5-6:30PM, J 127</a></p>
+<p>processus dynamicus, qui sequitur mutationem consuetudium lectorum.
+Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima.</p>
+</div>
+<!-- .news-content -->
+
+<div class="news-content"> <img src="img/raspberry-pi-lcd-project.jpg">
+<p><a href="#">Mar 5 Wed | 5-6:30PM, J 127</a></p>
+<p>est etiam processus dynamicus, qui sequitur mutationem.
+Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima.</p>
+</div>
+
+<div class="news-content"> <img src="img/automation-industry.jpg">
+<p><a href="#">Mar 12 Wed | 5-6:30PM, J 127</a></p>
+<p>etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.
+Mirum est notare quam littera gothica, quam nunc litterarum formas humanitatis per seacula quarta decima.</p>
+</div>
+
+<div class="news-content"> <img src="img/pcb-drafting.png">
+<p><a href="#">Mar 19 Wed | 5-6:30PM, J 127</a></p>
+<p>etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.
+Mirum est notare quam littera gothica, quam nunc litterarum formas humanitatis per seacula quarta decima.</p>
+</div>
+
+<div class="news-content"> <img src="img/server-programming-api-and-frameworks.png">
+<p><a href="#">Mar 26 Wed | 5-6:30PM, J 127</a></p>
+<p>etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.
+Mirum est notare quam littera gothica, quam nunc litterarum formas humanitatis per seacula quarta decima.</p>
+</div>
+
+<div class="news-content"> <img src="img/arduino-projects.png">
+<p><a href="#">Apr 2 Wed | 5-6:30PM, J 127</a></p>
+<p>etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.
+Mirum est notare quam littera gothica, quam nunc litterarum formas humanitatis per seacula quarta decima.</p>
+</div>
+
+<div class="news-content"> <img src="img/fpga-communications.png">
+<p><a href="#">Apr 9 Wed | 5-6:30PM, J 127</a></p>
+<p>etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.
+Mirum est notare quam littera gothica, quam nunc litterarum formas humanitatis per seacula quarta decima.</p>
+</div>
+
+                                  <!-- .news-content --> 
+
+                                </div>
+                                <!-- .news-preview --> 
+
+                              </div>
+                              <!--news-holder cf-->
+
+                            </div>
+                            <!--right-->
+
+                          </div>
+                          <!--wrapper-->
+
+                          <script src="js/vertical.news.slider.js"></script>
+
+                          <div id="boxes">
+
+                            <!-- #customize your modal window here -->
+                            <div id="exec-list" class="window">
+
+                              <div class="row1">
+                                <img class="row2-img" src="img/mike-michael-lescisin.jpg"/>
+                                <div class="row2-para">
+                                  <h1 class="row1-h">Michael Lescisin</h1>
+                                  <h2 class="row1-h">Chairman</h2>
+								
+                                  <p class="row1-p">Mike gives mentorship to students on popular hardware boards, such as Arduino and Raspberry Pi. Mike also manages SEEK projects using Arduino, Raspberry Pi, and other Atmel Based Micro-controllers.</p>
+
+                                  <div class="row2-member-portfolio"><a href="#"><img class="row1-member-portfolio" src="img/electronics.png"></a><a href="#"><img class="row1-member-portfolio" src="img/software-copy.png"></a><a href="#"><img class="row1-member-portfolio" src="img/mail.png"></a>
+                                  </div>
+
+                                </div>
+
+                              </div>
+
+                              <div class="row2">
+                                <img class="row1-img" src="img/ami-ahmad-touseef-seek-uoit-dc.jpg"/>
+                                <div class="row1-para">
+                                  <h1 class="row1-h">Ahmad Touseef</h1>
+                                  <h2 class="row1-h">Vice-chairman</h2>
+                                  <p class="row1-p">"Ami" Ahmad Touseef co-founded SEEK with Mike. He oversees mentoring younger peers, acquiring club funding, initiating key projects, expanding SEEK's resources and scope of reach. Ami finds peace and leisure in painting and coding.</p>
+                                  <div class="row2-member-portfolio"><a href="#"><img class="row2-member-portfolio" src="img/electronics.png"></a><a href="#"><img class="row2-member-portfolio" src="img/software-copy.png"></a><a href="#"><img class="row2-member-portfolio" src="img/mail.png"></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <!--row1-->
+
+                              <div class="row1">
+                                <img class="row2-img" src="img/dhimiter-qendri-seek-uoit-dc.png"/>
+                                <div class="row2-para">
+                                  <h1 class="row1-h">Dhimiter Qendri</h1>
+                                  <h2 class="row1-h">VP Embedded Systems</h2>
+                                  <p class="row1-p"> Dhimiter focuses on embedded related technologies such as micrcontrollers, embedded Linux ,FPGA's and PCB design.  </p>
+
+                                  <div class="row2-member-portfolio"><a href="#"><img class="row1-member-portfolio" src="img/electronics.png"></a><a href="#"><img class="row1-member-portfolio" src="img/software-copy.png"></a><a href="#"><img class="row1-member-portfolio" src="img/mail.png"></a>
+                                  </div>
+                                </div>
+                              </div>
+
+                                  <div class="row2">
+                                    <img class="row1-img" src="img/illuminati.jpg"/>
+                                    <div class="row1-para">
+                                      <h1 class="row1-h">Sagar Desai</h1>
+                                      <h2 class="row1-h">VP Programming</h2>
+                                      <p class="row1-p">
+                                        Sagar focuses on software programming related projects. He is proficient at java but also knows C++ and Python. Sagar loves playing video games and coding in his spare time.</p>
+                                        <div class="row2-member-portfolio"><a href="#"><img class="row2-member-portfolio" src="img/electronics.png"></a><a href="#"><img class="row2-member-portfolio" src="img/software-copy.png"></a><a href="#"><img class="row2-member-portfolio" src="img/mail.png"></a>
+                                        </div>
+                                      </div>
+                                    </div>
+									
+                              <div class="row1">
+                                <img class="row2-img" src="img/qusay-mahmoud-uoit.jpg"/>
+                                <div class="row2-para">
+                                  <h1 class="row1-h">Qusay Mahmoud, PhD</h1>
+                                  <h2 class="row1-h">Faculty Advisor</h2>
+                                  <p class="row1-p">Dr. Mahmoud is passionate about research at intersections of hardware &amp; software. He was the first to set SEEK's club mandate: to make equipment &amp; resources available at all times to students for mastery of hardware &amp; software.</p>
+
+                                  <div class="row2-member-portfolio"><a href="#"><img class="row1-member-portfolio" src="img/electronics.png"></a><a href="#"><img class="row1-member-portfolio" src="img/software-copy.png"></a><a href="#"><img class="row1-member-portfolio" src="img/mail.png"></a>
+                                  </div>
+                                </div>
+                              </div>
+
+                                  </div>
+                                  <!--exec-list, .window-->
+
+
+                                  <div id="meet-your-team" class="window">
+                                    <div class="container">
+                                      <img src="img/software-electrical-engineering-past-heroes.gif">
+                                      <div class="row0">
+                                        <p>Your Team Brings Back Old Skills to Build &amp; Make</p>
+                                      </div>
+                                      <div class="row1">
+                                        <div class="col"><div class="h1-header"><h1>We <img src="img/heart.png"> Designing Software</h1></div>
+                                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari.</p>
+                                      </div>
+                                      <div class="col"><div class="h1-header"><h1>We <img src="img/heart.png"> Creating Hardware</h1></div>
+                                      <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari.</p>
+                                    </div>
+                                    <div class="col"><div class="h1-header"><h1>We <img src="img/heart.png"> Real World Projects</h1></div>
+                                    <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari.</p>
+                                  </div>    
+                                </div>
+                                <!--row1-->
+                              </div>
+                              <!--container-->
+                            </div>
+                            <!--meet-your-team .window-->
+
+
+
+                            <div id="about-us" class="window">
+                              <div class="container">
+                                <div class="row"><p>This Explains How We Work.</p></div>
+                                <img src="img/about-us-blueprint.png" class="about-us-blueprint">
+                                <div class="row"><p>It Is Like An Infinite Loop.</p></div>
+
+                              </div>
+                              <!--container-->
+                            </div>
+                            <!--about-us .window-->
+
+
+                            <div id="contact-us-now" class="window">
+                              <div class="container">
+                                <img src="img/0x0102e1.png" class="0x0102e1">
+
+                              </div>
+                              <!--container-->
+                            </div>
+                            <!--contact-us-now .window-->
+
+
+                          </div>
+                          <!--boxes-->
+
+                          <!-- Do not remove div#mask, because you'll need it to fill the whole screen -->    
+                          <div id="mask"></div>
+
+                        </div>
+
+                        <script>
+                        $(document).ready(function(){
+                          $("#executives-menu-clicked").click(function(){
+                            $('#about-us').hide();
+                            $('#meet-your-team').hide();
+                            $('#contact-us-now').hide();
+                            var scrollPositionFromTop = $("body").scrollTop();
+//var marginShouldBeVlaue = scrollPositionFromTop + 120;
+//$(".window").css("margin-top", marginShouldBeValue);*/
+//alert("Event ocurred");
+//alert(scrollPositionFromTop + 200);
+$("#boxes .window").css("margin-top", (95 + 60 + 30 + scrollPositionFromTop) + "px");
+//alert(marginShouldBeValue + " px");
+//alert("I have been clicked");
+});
+                        });
+                        </script>
+
+                        <script>
+                        $(document).ready(function(){
+                          $("#meet-your-team-menu-clicked").click(function(){
+                            $('#exec-list').hide();
+                            $('#about-us').hide();
+                            $('#contact-us-now').hide();
+                            var scrollPositionFromTop = $("body").scrollTop();
+    //var marginShouldBeVlaue = scrollPositionFromTop + 120;
+    //$(".window").css("margin-top", marginShouldBeValue);*/
+    //alert("Event ocurred");
+    //alert(scrollPositionFromTop + 200);
+    $("#boxes .window").css("margin-top", (60 + scrollPositionFromTop) + "px");
+    //alert(marginShouldBeValue + " px");
+    //alert("Meet your team has been clicked");
+  });
+                        });
+                        </script>
+
+
+                        <script>
+                        $(document).ready(function(){
+                          $("#about-us-menu-clicked").click(function(){
+                            $('#exec-list').hide();
+                            $('#meet-your-team').hide();
+                            $('#contact-us-now').hide();
+                            var scrollPositionFromTop = $("body").scrollTop();
+    //var marginShouldBeVlaue = scrollPositionFromTop + 120;
+    //$(".window").css("margin-top", marginShouldBeValue);*/
+    //alert("Event ocurred");
+    //alert(scrollPositionFromTop + 200);
+    $("#boxes .window").css("margin-top", (80 + scrollPositionFromTop) + "px");
+    //alert(marginShouldBeValue + " px");
+    //alert("I have been clicked");
+  });
+                        });
+                        </script>
+
+
+                        <script>
+                        $(document).ready(function(){
+                          $("#contact-us-now-menu-clicked").click(function(){
+                            $('#exec-list').hide();
+                            $('#meet-your-team').hide();
+                            $('#about-us').hide();
+                            var scrollPositionFromTop = $("body").scrollTop();
+    //var marginShouldBeVlaue = scrollPositionFromTop + 120;
+    //$(".window").css("margin-top", marginShouldBeValue);*/
+    //alert("Event ocurred");
+    //alert(scrollPositionFromTop + 200);
+    $("#boxes .window").css("margin-top", (95 + 0 + scrollPositionFromTop) + "px");
+    //alert(marginShouldBeValue + " px");
+    //alert("I have been clicked");
+  });
+                        });
+                        </script>
+
+
+                      </div>
+                      <!--all-content-->
+
+                      <div id="footer">
+
+                        <div id="footer-text">
+                          Based on <em>SeekUoitDc</em> template, first developed &amp; distributed by <a href="http://ca.linkedin.com/pub/ami-ahmad-touseef/32/b56/169">Ami (Ahmad Touseef)</a> on a <a href="http://www.gnu.org/licenses/gpl-faq.html#WhatDoesGPLStandFor">GPL License</a>. Since 2014, <a href="#">improved &amp; maintained by SEEK</a>.
+                        </div>
+                                                <a href="https://upverter.com/" target="_blank"><img src="img/upverter-logo.png"></a>
+                        <a href="https://github.com/organizations/seekuoitdc" target="_blank"><img src="img/github-logo.png"></a> 
+
+                      </div>
+                      <!--footer-->
+
+                    </body>
+
+                    </html>

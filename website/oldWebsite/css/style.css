@@ -1,0 +1,224 @@
+body {
+    background-color: rgb(253, 253, 254);
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #232525;
+    overflow-x: hidden;
+}
+
+.sticky {
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+    height: 27px;
+    z-index: 100;
+    background-color: rgb(253, 253, 254);
+    box-shadow: 0px 2px 17px 0px rgb(220, 221, 222);
+    
+}
+
+#container2{
+    width: 85%;
+    margin: 0 auto 0 auto;
+    border: 1px solid rgb(180, 180, 180);
+    
+}
+
+#container2 .left {
+    width: 70%;
+    border: 1px solid rgb(0, 255, 0);
+    float: left;
+
+}
+
+#container2 .right {
+    width: 24%;
+    /*border: 1px solid rgb(0, 0, 255);*/
+    height: 300px;
+    float: left;
+    margin-left: 5%;
+    box-shadow: 2px 2px 5px 1px rgb(160, 160, 160);
+    
+}
+
+/*#container2 .right .right-content {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(220, 220, 220)
+
+}*/
+
+#slides {
+      display: none
+    }
+
+    #slides .slidesjs-navigation {
+      margin-top:3px;
+    }
+
+    #slides .slidesjs-previous {
+      margin-right: 5px;
+      float: left;
+    }
+
+    #slides .slidesjs-next {
+      margin-right: 5px;
+      float: left;
+    }
+
+    .slidesjs-pagination {
+      margin: 6px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+    
+        #slides {
+      display: none
+    }
+
+    .container {
+      margin: 0 auto
+    }
+
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      body {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .container {
+        width: 724px
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px
+      }
+    }
+    
+.wrapper {
+width: 90%;
+height: 900px;
+margin: 30px auto 0 auto;
+/*padding: 20px;*/
+/*border: 1px solid rgb(255, 200, 200);*/
+}
+.wrapper h1 {
+text-align: center;
+font-family: Verdana, sans-serif;
+font-weight: 500;
+color: #334363;
+margin-bottom: 25px;
+}
+.wrapper .p {
+text-align: center;
+font-family: Arial, sans-serif;
+font-size: 22px;
+margin-top: 70px;
+}
+.wrapper .p ~ p {
+margin-top: 0;
+}
+.wrapper .p a {
+text-decoration: underline;
+}
+.wrapper .p a:hover {
+color: red;
+}
+
+.right {
+float: left;
+margin: 0 0 0 20px;
+}
+
+.left {
+float: left;
+width: 64%;
+/*border: 1px solid rgb(255, 0, 0);*/
+
+/*background: rgb(255, 255, 255);
+border-radius: 10px;
+box-shadow: 0px 3px 6px 2px rgb(228, 228, 228);*/
+}
+
+#footer {
+margin-top: 50px;
+margin-bottom: 0px;
+width: 100%;
+height: 86px;
+background: rgb(246, 246, 246);
+/*border: 1px solid rgb(0, 0, 255);*/
+}
+
+#footer img {
+height: 65px;
+width: auto;;
+margin: 14px 25px 4px 0px;
+float: right;
+/*border: 1px solid rgb(255, 0, 0);*/
+}
+
+#footer #footer-text {
+float: left;
+margin: 46px 25px 0px 32px;
+font: normal 10 "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: rgb(81, 81, 81);
+/*border: 1px solid rgb(255, 0, 0);*/
+}
+
+#footer #footer-text a {
+color: rgb(171, 110, 110);
+}
